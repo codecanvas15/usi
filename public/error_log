@@ -1,0 +1,45 @@
+[06-Mar-2023 04:15:54 UTC] PHP Warning:  include(/home/intives1/usi-trading.intivestudio.com/vendor/composer/../phpoption/phpoption/src/PhpOption/Option.php): Failed to open stream: No such file or directory in /home/intives1/usi-trading.intivestudio.com/vendor/composer/ClassLoader.php on line 571
+[06-Mar-2023 04:15:54 UTC] PHP Warning:  include(): Failed opening '/home/intives1/usi-trading.intivestudio.com/vendor/composer/../phpoption/phpoption/src/PhpOption/Option.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/intives1/usi-trading.intivestudio.com/vendor/composer/ClassLoader.php on line 571
+[06-Mar-2023 04:15:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#6 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Illuminate\Log\LogManager->driver()
+#10 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(252): Illuminate\Log\LogManager->error()
+#11 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/intives1/usi-trading.intivestudio.com/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#5 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Illuminate\Log\LogManager->driver()
+#9 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(252): Illuminate\Log\LogManager->error()
+#10 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/intives1/usi-trading.intivestudio.com/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/intives1/usi-trading.intivestudio.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[06-Mar-2023 04:15:57 UTC] PHP Warning:  require(/home/intives1/usi-trading.intivestudio.com/vendor/symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/intives1/usi-trading.intivestudio.com/vendor/composer/autoload_real.php on line 76
+[06-Mar-2023 04:15:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/intives1/usi-trading.intivestudio.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/intives1/usi-trading.intivestudio.com/vendor/composer/autoload_real.php:76
+Stack trace:
+#0 /home/intives1/usi-trading.intivestudio.com/vendor/composer/autoload_real.php(59): composerRequire478954aae3937270b5f5c67bf42c3a81()
+#1 /home/intives1/usi-trading.intivestudio.com/vendor/autoload.php(7): ComposerAutoloaderInit478954aae3937270b5f5c67bf42c3a81::getLoader()
+#2 /home/intives1/usi-trading.intivestudio.com/public/index.php(34): require('/home/intives1/...')
+#3 {main}
+  thrown in /home/intives1/usi-trading.intivestudio.com/vendor/composer/autoload_real.php on line 76

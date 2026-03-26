@@ -1,0 +1,62 @@
+@extends('layouts.admin.layout.index')
+
+@php
+    $main = 'purchase-order-general';
+@endphp
+
+@section('title', Str::headline($type) . ' - ')
+
+@section('css')
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.min.css" />
+@endsection
+
+@section('breadcrumbs')
+    <div class="box">
+        <div class="box-body">
+            <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item">
+                        <a href="{{ route('admin.index') }}">Dashboard</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        {{ Str::headline($main) }}
+                    </li>
+                    <li class="breadcrumb-item">
+                        {{ Str::headline($type) }}
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+@endsection
+
+@section('content')
+    <x-card-data-table title="">
+        <x-slot name="header_content">
+            <div class="text-center">
+                <h3 class="text-uppercase">{{ Str::headline($type) }}</h3>
+                <h5 class="text-uppercase my-0">periode : {{ localDate($from_date) }} - {{ localDate($to_date) }}</h5>
+            </div>
+        </x-slot>
+        <x-slot name="table_content">
+            <x-table theadColor="white" class="table-bordered mt-20">
+                <x-slot name="table_head">
+                    @include('admin.purchase-order-general-report.detail-closed-purchase-order-general.table.header')
+                </x-slot>
+                <x-slot name="table_body">
+                    @include('admin.purchase-order-general-report.detail-closed-purchase-order-general.table.body', [
+                        'formatNumber' => true,
+                    ])
+                </x-slot>
+            </x-table>
+        </x-slot>
+    </x-card-data-table>
+@endsection
+
+@section('js')
+    <script>
+        sidebarMenuOpen('#purchase-menu');
+        sidebarMenuOpen('#purchase-order-report');
+        sidebarActive('#{{ $main }}');
+    </script>
+@endsection

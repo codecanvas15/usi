@@ -1,0 +1,44 @@
+button:disabled,
+a:disabled,
+*:disabled {
+    cursor: not-allowed;
+    pointer-events: visible;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-weight: 700 !important;
+    color: #212529;
+    text-transform: capitalize;
+}
+
+tr,
+th,
+td,
+button,
+a.btn,
+span.btn {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+td,
+th {
+    padding: 0.5rem;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.5rem;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+    padding: 0.5rem;
+}
+
+.hover_text-dark:hover {
+    color: var(--bs-gray-dark) !important;
+}

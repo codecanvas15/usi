@@ -1,0 +1,296 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class TaxesTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+
+
+        \DB::table('taxes')->delete();
+
+        \DB::table('taxes')->insert(array(
+            0 =>
+            array(
+                'id' => 1,
+                'name' => 'PPN',
+                'description' => 'PPN',
+                'value' => '0.11000',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2024-02-20 17:55:10',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 1,
+                'type' => 'ppn',
+                'category' => 'PPN',
+            ),
+            1 =>
+            array(
+                'id' => 2,
+                'name' => 'PBBKB KALIMANTAN',
+                'description' => 'PBBKB KALIMANTAN',
+                'value' => '0.07500',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2024-02-23 21:20:16',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PBBKB',
+            ),
+            2 =>
+            array(
+                'id' => 3,
+                'name' => 'PPh (4) 2',
+                'description' => 'Soluta temporibus libero delectus dolores molestias porro vero praesentium eveniet saepe velit minim',
+                'value' => '0.10000',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2023-10-19 22:48:11',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PPh (4) 2',
+            ),
+            3 =>
+            array(
+                'id' => 4,
+                'name' => 'PPH 15',
+                'description' => 'PPh 15',
+                'value' => '0.01200',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2023-10-19 22:48:39',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PPH 15',
+            ),
+            4 =>
+            array(
+                'id' => 5,
+                'name' => 'PPH 21',
+                'description' => 'Maiores sit quis autem sit sunt officiis doloribus consectetur fuga aut est beatae dolor unde quis s',
+                'value' => '0.02000',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2023-10-19 22:49:03',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 0,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PPH 21',
+            ),
+            5 =>
+            array(
+                'id' => 6,
+                'name' => 'PPH 22',
+                'description' => 'PPH 22',
+                'value' => '0.00300',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2023-10-19 22:50:29',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PPH 22',
+            ),
+            6 =>
+            array(
+                'id' => 7,
+                'name' => 'PPh psl 23',
+                'description' => 'Pajak Penghasilan berasal dari modal, penyerahan jasa, atau hadiah dan penghargaan',
+                'value' => '0.02000',
+                'deleted_at' => NULL,
+                'created_at' => '2022-12-05 06:10:02',
+                'updated_at' => '2023-10-19 22:51:01',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PPh psl 23',
+            ),
+            7 =>
+            array(
+                'id' => 9,
+                'name' => 'PPN 12%',
+                'description' => 'PPN 12%',
+                'value' => '0.12000',
+                'deleted_at' => '2023-09-26 21:52:02',
+                'created_at' => '2023-05-25 17:43:47',
+                'updated_at' => '2023-09-26 21:52:02',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'ppn',
+                'category' => 'PPN 12%',
+            ),
+            8 =>
+            array(
+                'id' => 10,
+                'name' => 'Tidak Dipungut PPN',
+                'description' => 'PPN',
+                'value' => '0.00000',
+                'deleted_at' => '2023-10-18 23:23:28',
+                'created_at' => '2023-05-30 22:40:54',
+                'updated_at' => '2023-10-18 23:23:28',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'ppn',
+                'category' => 'Tidak Dipungut PPN',
+            ),
+            9 =>
+            array(
+                'id' => 11,
+                'name' => 'PPN 1.1%',
+                'description' => 'PPN 1.1%',
+                'value' => '0.01100',
+                'deleted_at' => '2023-10-18 20:16:44',
+                'created_at' => '2023-05-31 19:24:30',
+                'updated_at' => '2023-10-18 20:16:44',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'ppn',
+                'category' => 'PPN 1.1%',
+            ),
+            10 =>
+            array(
+                'id' => 12,
+                'name' => 'PBBKB Industri Jawa Area',
+                'description' => 'PBBKB Industri area Jawa (kecuali DKI)',
+                'value' => '0.00858',
+                'deleted_at' => NULL,
+                'created_at' => '2023-06-28 18:19:15',
+                'updated_at' => '2024-02-29 17:44:28',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PBBKB',
+            ),
+            11 =>
+            array(
+                'id' => 13,
+                'name' => 'PBBKB Bunker Jawa Area',
+                'description' => 'PBBKB Bunker area Jawa dan Industri area DKI',
+                'value' => '0.05000',
+                'deleted_at' => NULL,
+                'created_at' => '2023-06-28 18:20:16',
+                'updated_at' => '2024-02-23 21:19:36',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PBBKB',
+            ),
+            12 =>
+            array(
+                'id' => 14,
+                'name' => 'PPH 22 (TRIAL)',
+                'description' => 'PPH 22 (3%)',
+                'value' => '0.03000',
+                'deleted_at' => '2023-09-26 21:51:53',
+                'created_at' => '2023-07-05 17:17:04',
+                'updated_at' => '2023-09-26 21:51:53',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PPH 22 (TRIAL)',
+            ),
+            13 =>
+            array(
+                'id' => 19,
+                'name' => 'PBBKB 10%',
+                'description' => 'PBBKB 10%',
+                'value' => '0.10000',
+                'deleted_at' => NULL,
+                'created_at' => '2023-09-05 23:10:59',
+                'updated_at' => '2024-02-23 21:19:15',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PBBKB',
+            ),
+            14 =>
+            array(
+                'id' => 20,
+                'name' => 'PPN',
+                'description' => 'PPN 1,1%',
+                'value' => '0.01100',
+                'deleted_at' => '2024-02-15 21:28:20',
+                'created_at' => '2024-01-26 20:19:25',
+                'updated_at' => '2024-02-15 21:28:20',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'ppn',
+                'category' => 'PPN',
+            ),
+            15 =>
+            array(
+                'id' => 21,
+                'name' => 'PPN 1.1%',
+                'description' => 'PPN 1.1%',
+                'value' => '0.01100',
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-23 00:24:51',
+                'updated_at' => '2024-02-23 00:24:51',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'ppn',
+                'category' => 'PPN 1.1%',
+            ),
+            16 =>
+            array(
+                'id' => 22,
+                'name' => 'PBBKB Batam Bunker',
+                'description' => '10% x 10%',
+                'value' => '0.01000',
+                'deleted_at' => NULL,
+                'created_at' => '2024-03-09 00:52:51',
+                'updated_at' => '2024-03-09 00:52:51',
+                'coa_sale' => NULL,
+                'coa_purchase' => NULL,
+                'is_discount' => 1,
+                'is_default' => 0,
+                'type' => 'non_ppn',
+                'category' => 'PBBKB',
+            ),
+        ));
+    }
+}

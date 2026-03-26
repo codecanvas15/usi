@@ -1,0 +1,1 @@
+<a href="{{ route("admin.$main.list-delivery-order.show", ['sale_order_id' => $row->so_trading, 'delivery_order_id' => $row]) }}" class="text-primary text-decoration-underline hover_text-dark">{{ $field }}</a>

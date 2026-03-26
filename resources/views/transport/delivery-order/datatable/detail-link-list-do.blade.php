@@ -1,0 +1,1 @@
+<a href="{{ route('transport.delivery-order.show.show-single-delivery-order', ['purchase_transport_id' => $model, 'delivery_order_id' => $row]) }}" class="text-primary text-decoration-underline hover_text-dark">{{ $field }}</a>

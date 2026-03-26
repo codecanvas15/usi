@@ -1,0 +1,1 @@
+{"version":3,"file":"/js/select-2.js","mappings":"AAAAA,EAAE,YAAYC","sources":["webpack:///./resources/js/select-2.js"],"sourcesContent":["$(\".select2\").select2();\r\n"],"names":["$","select2"],"sourceRoot":""}

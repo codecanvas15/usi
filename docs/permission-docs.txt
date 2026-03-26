@@ -1,0 +1,137 @@
+- super_admin
+    - 'role' => ['view', 'create', 'edit', 'delete'],
+    - 'user' => ['view', 'create', 'edit', 'delete', 'export', 'import'],
+    - 'customer' => ['view', 'create', 'edit', 'delete', 'export', 'import'],
+    - 'customer-coa' => ['view', 'create', 'edit'],
+    - 'customer-bank' => ['view', 'create', 'edit', 'delete'],
+    - 'vendor' => ['view', 'create', 'edit', 'delete'],
+    - 'vendor-coa' => ['view', 'create', 'edit'],
+    - 'tax' => ['view', 'create', 'edit', 'delete'],
+    - 'garage' => ['view', 'create', 'edit', 'delete'],
+    - 'vehicle-fleet' => ['view', 'create', 'edit', 'delete'],
+    - 'bank' => ['view', 'create', 'edit', 'delete'],
+    - 'branch' => ['view', 'create', 'edit', 'delete'],
+    - 'currency' => ['view', 'create', 'edit', 'delete'],
+    - 'unit' => ['view', 'create', 'edit', 'delete'],
+    - 'unit-category' => ['view', 'create', 'edit', 'delete'],
+    - 'period' => ['view', 'generate'],
+    - 'coa' => ['view', 'create', 'edit', 'delete'],
+    - 'location' => ['view', 'create', 'edit', 'delete'],
+    - 'item-receiving-report' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'ware-house' => ['view', 'create', 'edit', 'delete'],
+    - 'stock-card' => ['view', 'export', 'print'],
+    - 'stock-mutation' => ['view', 'export', 'print'],
+    - 'stock-usage' => ['view', 'export', 'print', 'create', 'approve', 'reject'],
+    - 'employee' => ['view', 'create', 'edit', 'delete', 'export', 'import'],
+    - 'payroll-period' => ['view', 'create', 'edit', 'delete'],
+    - 'payroll' => ['view', 'create', 'edit', 'delete'],
+    - 'key-performance-indicator' => ['view', 'create', 'edit', 'delete'],
+    - 'evaluation' => ['view', 'create', 'edit', 'delete'],
+    - 'cuti' => ['view', 'create', 'edit', 'delete'],
+    - 'presensi' => ['view', 'create', 'edit', 'delete'],
+    - 'sales-order' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'delivery-order' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'sales-invoice' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'quotation' => ['view', 'create', 'edit', 'delete'],
+    - 'quotation-add-on-type' => ['view', 'create', 'edit', 'delete'],
+    - 'purchase-request' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-request-service' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-request-general' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-request-transport' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-order' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'purchase-transport' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-service' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-general' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'item' => ['view', 'create', 'edit', 'delete'],
+    - 'item-price' => ['view', 'create', 'edit', 'delete'],
+    - 'item-subtitute' => ['view', 'create', 'edit', 'delete'],
+    - 'item-category' => ['view', 'create', 'edit', 'delete'],
+    - 'item-type' => ['view', 'create', 'edit', 'delete'],
+    - 'price' => ['view', 'create', 'edit', 'delete'],
+    - 'journal-type' => ['view', 'create', 'edit', 'delete'],
+    - 'journal' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'print'],
+    - 'transport-delivery-order' => ['view', 'edit', 'request-print', 'print']
+
+- admin
+    - 'user' => ['view', 'create', 'edit', 'delete', 'export', 'import'],
+    - 'customer' => ['view', 'create', 'edit', 'delete', 'export', 'import'],
+    - 'customer-coa' => ['view', 'create', 'edit'],
+    - 'customer-bank' => ['view', 'create', 'edit', 'delete'],
+    - 'vendor' => ['view', 'create', 'edit', 'delete'],
+    - 'vendor-coa' => ['view', 'create', 'edit'],
+    - 'tax' => ['view', 'create', 'edit', 'delete'],
+    - 'garage' => ['view', 'create', 'edit', 'delete'],
+    - 'vehicle-fleet' => ['view', 'create', 'edit', 'delete'],
+    - 'bank' => ['view', 'create', 'edit', 'delete'],
+    - 'branch' => ['view', 'create', 'edit', 'delete'],
+    - 'currency' => ['view', 'create', 'edit', 'delete'],
+    - 'unit' => ['view', 'create', 'edit', 'delete'],
+    - 'unit-category' => ['view', 'create', 'edit', 'delete'],
+    - 'period' => ['view', 'generate'],
+    - 'coa' => ['view', 'create', 'edit', 'delete'],
+    - 'location' => ['view', 'create', 'edit', 'delete'],
+
+- warehouse
+    - 'item-receiving-report' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'ware-house' => ['view', 'create', 'edit', 'delete'],
+    - 'stock-card' => ['view', 'export', 'print'],
+    - 'stock-mutation' => ['view', 'export', 'print'],
+    - 'stock-usage' => ['view', 'export', 'print', 'create', 'approve', 'reject'],
+
+- hrd
+    - 'employee' => ['view', 'create', 'edit', 'delete', 'export', 'import'],
+    - 'payroll-period' => ['view', 'create', 'edit', 'delete'],
+    - 'payroll' => ['view', 'create', 'edit', 'delete'],
+    - 'key-performance-indicator' => ['view', 'create', 'edit', 'delete'],
+    - 'evaluation' => ['view', 'create', 'edit', 'delete'],
+    - 'cuti' => ['view', 'create', 'edit', 'delete'],
+    - 'presensi' => ['view', 'create', 'edit', 'delete'],
+- sales
+    - 'sales-order' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'delivery-order' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'sales-invoice' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'quotation' => ['view', 'create', 'edit', 'delete'],
+    - 'quotation-add-on-type' => ['view', 'create', 'edit', 'delete'],
+- purchase
+    - 'purchase-request' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-request-service' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-request-general' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-request-transport' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-order' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'pairing'],
+    - 'purchase-transport' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-service' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'purchase-general' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close'],
+    - 'item' => ['view', 'create', 'edit', 'delete'],
+    - 'item-price' => ['view', 'create', 'edit', 'delete'],
+    - 'item-subtitute' => ['view', 'create', 'edit', 'delete'],
+    - 'item-category' => ['view', 'create', 'edit', 'delete'],
+    - 'item-type' => ['view', 'create', 'edit', 'delete'],
+    - 'price' => ['view', 'create', 'edit', 'delete'],
+    - 'journal-type' => ['view', 'create', 'edit', 'delete'],
+    - 'journal' => ['view', 'create', 'edit', 'delete', 'approve', 'revert', 'void', 'cancel', 'reject', 'close', 'print'],
+- transport
+    - 'transport-delivery-order' => ['view', 'edit', 'request-print', 'print']
+
+=====================================================================================================================================================================================================================
+
+
+
+# USI CUSTOM COMMAND LINE AVAILABLE
+
+## CREATE SUPERADMIN
+
+```
+php artisan make:superadmin
+```
+
+## CREATE PERMISSION
+
+```
+php artisan make:permission
+```
+
+## CHANGE LOCAL CURRENCY
+
+```
+php artisan change:local-currency
+```

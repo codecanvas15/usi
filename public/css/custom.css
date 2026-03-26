@@ -1,0 +1,90 @@
+:disabled,
+a:disabled,
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: visible;
+}
+a {
+    text-decoration: none;
+}
+label {
+    color: #212529;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+}
+
+body.dark-skin label {
+    color: #f5f5f5;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+}
+a.btn,
+button,
+span.btn,
+td,
+th,
+tr {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+.table > :not(caption) > * > *,
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+td,
+th {
+    padding: 0.5rem;
+}
+.hover_text-dark:hover {
+    color: var(--bs-gray-dark) !important;
+}
+
+body.dark-skin .select2-search {
+    background-color: #0c1a32;
+}
+
+body.dark-skin .select2-search input {
+    background-color: #0c1a32;
+}
+
+body.dark-skin .select2-results {
+    background-color: #0c1a32;
+}
+
+body.dark-skin
+    .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    color: #f5f5f5;
+}
+
+body.dark-skin h5.modal-title {
+    color: #0c1a32;
+}
+
+body.dark-skin .select2-selection__rendered,
+body.dark-skin .select2-selection.select2-selection--multiple,
+body.dark-skin .select2-search__field,
+body.dark-skin .select2-container--default .select2-selection--single,
+body.dark-skin
+    .select2-container--default
+    .select2-results__option[aria-selected="true"] {
+    color: #f5f5f5;
+    background-color: #0c1a32;
+}
+
+body.dark-skin thead.bg-white {
+    background-color: #1c2e4c !important;
+}
+
+body.dark-skin .toast-header {
+    border-bottom: none;
+}
+
+body.dark-skin .toast-body {
+    color: #f5f5f5;
+    background-color: #0c1a32;
+}
+
+/* body.dark-skin  */
+
+/*# sourceMappingURL=style.css.map*/

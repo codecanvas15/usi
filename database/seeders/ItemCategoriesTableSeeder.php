@@ -1,0 +1,686 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class ItemCategoriesTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('item_categories')->delete();
+        
+        \DB::table('item_categories')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'kode' => 'ITCAT-20230926JIWJh',
+                'nama' => 'Saldo Awal',
+                'remark' => 'Saldo Awal',
+                'item_type_id' => 1,
+                'is_complete' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2023-09-27 03:23:42',
+                'updated_at' => '2023-09-27 03:23:42',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'kode' => 'ITCAT-20231018hFeRS',
+                'nama' => 'BBM TRADING',
+                'remark' => 'BBM TRADING',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-18 19:39:48',
+                'updated_at' => '2024-03-07 08:12:32',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'kode' => 'ITCAT-20231020ui3Kg',
+                'nama' => 'AKTIVA TETAP - INVENTARIS KANTOR',
+                'remark' => NULL,
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2023-10-20 17:26:28',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'kode' => 'ITCAT-202310203CUyO',
+                'nama' => 'AKTIVA TETAP - INVENTARIS OPERASIONAL',
+                'remark' => NULL,
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2023-10-20 17:26:28',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'kode' => 'ITCAT-202310205ROlV',
+                'nama' => 'AKTIVA TETAP - KENDARAAN KANTOR',
+                'remark' => NULL,
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2023-10-20 17:26:28',
+            ),
+            5 => 
+            array (
+                'id' => 6,
+                'kode' => 'ITCAT-202310202dZQl',
+                'nama' => 'BAHAN BANGUNAN',
+                'remark' => NULL,
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2023-10-20 17:26:28',
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'kode' => 'ITCAT-20231020Y3B6c',
+                'nama' => 'Operasional',
+                'remark' => 'Operasional',
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2024-01-30 18:12:02',
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'kode' => 'ITCAT-20231020r2fLl',
+                'nama' => 'SAFETY',
+                'remark' => NULL,
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2023-10-20 17:26:28',
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'kode' => 'ITCAT-20231020Lqiww',
+                'nama' => 'DOCKING',
+                'remark' => 'DOCKING',
+                'item_type_id' => 4,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2024-01-24 20:29:21',
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'kode' => 'ITCAT-20231020RzmF6',
+                'nama' => 'JASA - MAINTENANCE/PEMELIHARAAN DARAT',
+                'remark' => 'JASA - MAINTENANCE/PEMELIHARAAN DARAT',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2024-01-19 22:14:59',
+            ),
+            10 => 
+            array (
+                'id' => 11,
+                'kode' => 'ITCAT-20231020vPeAZ',
+                'nama' => 'JASA - PERIJINAN KAPAL',
+                'remark' => 'JASA - PERIJINAN KAPAL',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:26:28',
+                'updated_at' => '2024-01-24 20:31:41',
+            ),
+            11 => 
+            array (
+                'id' => 12,
+                'kode' => 'ITCAT-20231020j7Orz',
+                'nama' => 'ATK',
+                'remark' => 'ATK',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-07 08:11:48',
+            ),
+            12 => 
+            array (
+                'id' => 13,
+                'kode' => 'ITCAT-20231020W4q2b',
+                'nama' => 'BAHAN BANGUNAN - PURC. ITEM',
+                'remark' => 'BAHAN BANGUNAN - PURC. ITEM',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-18 17:23:24',
+            ),
+            13 => 
+            array (
+                'id' => 14,
+                'kode' => 'ITCAT-20231020YhWUG',
+                'nama' => 'OPERASIONAL',
+                'remark' => 'OPERASIONAL',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-07 08:11:56',
+            ),
+            14 => 
+            array (
+                'id' => 15,
+                'kode' => 'ITCAT-202310203IY1J',
+                'nama' => 'LISTRIK',
+                'remark' => 'LISTRIK',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-07 08:12:01',
+            ),
+            15 => 
+            array (
+                'id' => 16,
+                'kode' => 'ITCAT-2023102062JAR',
+                'nama' => 'OBAT - KARYAWAN',
+                'remark' => 'OBAT - KARYAWAN',
+                'item_type_id' => 1,
+                'is_complete' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-01-24 20:37:59',
+            ),
+            16 => 
+            array (
+                'id' => 17,
+                'kode' => 'ITCAT-20231020Yg0vi',
+                'nama' => 'SAFETY',
+                'remark' => 'SAFETY',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-07 08:12:06',
+            ),
+            17 => 
+            array (
+                'id' => 18,
+                'kode' => 'ITCAT-20231020srVuk',
+                'nama' => 'SPAREPART - ARMADA LAUT',
+                'remark' => 'SPAREPART - ARMADA LAUT',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-07 08:12:11',
+            ),
+            18 => 
+            array (
+                'id' => 19,
+                'kode' => 'ITCAT-20231020sQlMK',
+                'nama' => 'UMUM',
+                'remark' => 'UMUM',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 17:30:18',
+                'updated_at' => '2024-03-07 08:12:17',
+            ),
+            19 => 
+            array (
+                'id' => 20,
+                'kode' => 'ITCAT-20231020xCJcw',
+                'nama' => 'Jasa Transport Darat',
+                'remark' => 'OAT Darat',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-20 21:04:17',
+                'updated_at' => '2023-10-24 22:41:18',
+            ),
+            20 => 
+            array (
+                'id' => 21,
+                'kode' => 'ITCAT-20231024RIX1F',
+                'nama' => 'Jasa Transport Laut',
+                'remark' => 'OAT Laut',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2023-10-24 22:40:07',
+                'updated_at' => '2023-10-24 22:40:07',
+            ),
+            21 => 
+            array (
+                'id' => 22,
+                'kode' => 'ITCAT-20240115KXeZS',
+                'nama' => 'Internet',
+                'remark' => 'Internet',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-15 18:56:08',
+                'updated_at' => '2024-01-15 18:56:08',
+            ),
+            22 => 
+            array (
+                'id' => 23,
+                'kode' => 'ITCAT-20240116uzaYU',
+                'nama' => 'Operasional Umum',
+                'remark' => 'Operasional Umum',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-16 21:58:23',
+                'updated_at' => '2024-01-16 21:58:23',
+            ),
+            23 => 
+            array (
+                'id' => 24,
+                'kode' => 'ITCAT-20240116JdSNp',
+                'nama' => 'Biaya Ijin Surat & Keperluan Kantor',
+                'remark' => 'Biaya Ijin Surat & Keperluan Kantor',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-16 22:05:26',
+                'updated_at' => '2024-01-16 22:05:26',
+            ),
+            24 => 
+            array (
+                'id' => 25,
+                'kode' => 'ITCAT-20240117Z0OF4',
+                'nama' => 'Piutang Titipan',
+                'remark' => 'Piutang Titipan',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-17 22:14:03',
+                'updated_at' => '2024-01-17 22:14:03',
+            ),
+            25 => 
+            array (
+                'id' => 26,
+                'kode' => 'ITCAT-20240122a4um6',
+                'nama' => 'Barang Rumah Tangga Kantor',
+                'remark' => 'Barang Rumah Tangga Kantor',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-22 23:52:55',
+                'updated_at' => '2024-03-07 08:11:12',
+            ),
+            26 => 
+            array (
+                'id' => 27,
+                'kode' => 'ITCAT-20240123V5cdY',
+                'nama' => 'Kirim Dokumen',
+                'remark' => 'Kirim Dokumen',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-23 20:40:03',
+                'updated_at' => '2024-01-23 20:40:03',
+            ),
+            27 => 
+            array (
+                'id' => 28,
+                'kode' => 'ITCAT-202401232b9Tr',
+                'nama' => 'ASURANSI',
+                'remark' => 'ASURANSI',
+                'item_type_id' => 4,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-23 21:08:07',
+                'updated_at' => '2024-01-23 21:08:07',
+            ),
+            28 => 
+            array (
+                'id' => 29,
+                'kode' => 'ITCAT-20240123FJflG',
+                'nama' => 'Aktiva Tetap - Kendaraan Operasional',
+                'remark' => 'Aktiva Tetap - Kendaraan Operasional',
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-23 21:16:23',
+                'updated_at' => '2024-01-23 21:46:51',
+            ),
+            29 => 
+            array (
+                'id' => 30,
+                'kode' => 'ITCAT-20240123Wya6h',
+                'nama' => 'Aktiva Tetap - Tanah',
+                'remark' => 'Aktiva Tetap - Tanah',
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-23 21:17:14',
+                'updated_at' => '2024-01-23 21:46:25',
+            ),
+            30 => 
+            array (
+                'id' => 31,
+                'kode' => 'ITCAT-20240123Ne0cO',
+                'nama' => 'Aktiva Tetap - Bangunan',
+                'remark' => 'Aktiva Tetap - Bangunan',
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-23 21:18:22',
+                'updated_at' => '2024-01-23 21:45:59',
+            ),
+            31 => 
+            array (
+                'id' => 32,
+                'kode' => 'ITCAT-20240123CUW6W',
+                'nama' => 'Aktiva Tetap - Kapal',
+                'remark' => 'Aktiva Tetap - Kapal',
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-23 21:18:40',
+                'updated_at' => '2024-01-23 21:45:39',
+            ),
+            32 => 
+            array (
+                'id' => 33,
+                'kode' => 'ITCAT-20240124mDDaL',
+                'nama' => 'SEWA GEDUNG',
+                'remark' => 'SEWA GEDUNG',
+                'item_type_id' => 4,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-24 20:43:11',
+                'updated_at' => '2024-01-24 20:43:11',
+            ),
+            33 => 
+            array (
+                'id' => 34,
+                'kode' => 'ITCAT-202401240ftyH',
+                'nama' => 'SEWA KENDARAAN',
+                'remark' => 'SEWA KENDARAAN',
+                'item_type_id' => 4,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-24 20:43:36',
+                'updated_at' => '2024-01-24 20:43:36',
+            ),
+            34 => 
+            array (
+                'id' => 35,
+                'kode' => 'ITCAT-202401241yNTH',
+                'nama' => 'OBAT - DIREKSI',
+                'remark' => 'OBAT - DIREKSI',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-24 20:45:04',
+                'updated_at' => '2024-03-07 08:11:06',
+            ),
+            35 => 
+            array (
+                'id' => 36,
+                'kode' => 'ITCAT-20240124jlXDh',
+                'nama' => 'SPAREPART - ARMADA DARAT',
+                'remark' => 'SPAREPART - ARMADA DARAT',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-24 20:46:48',
+                'updated_at' => '2024-03-07 08:11:00',
+            ),
+            36 => 
+            array (
+                'id' => 38,
+                'kode' => 'ITCAT-20240126kHaBv',
+                'nama' => 'MAINTENANCE INVENTARIS KANTOR',
+                'remark' => 'MAINTENANCE INVENTARIS KANTOR',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-26 21:35:47',
+                'updated_at' => '2024-02-26 17:30:45',
+            ),
+            37 => 
+            array (
+                'id' => 39,
+                'kode' => 'ITCAT-20240131ABWkb',
+                'nama' => 'BIAYA ADMINISTRASI BANK',
+                'remark' => 'BIAYA ADMINISTRASI BANK',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-31 18:55:51',
+                'updated_at' => '2024-01-31 18:55:51',
+            ),
+            38 => 
+            array (
+                'id' => 40,
+                'kode' => 'ITCAT-20240131EPAHN',
+                'nama' => 'PIUTANG PT. USI PETROTRANS ENERGI',
+                'remark' => 'PIUTANG PT. USI PETROTRANS ENERGI',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-31 23:28:50',
+                'updated_at' => '2024-01-31 23:30:39',
+            ),
+            39 => 
+            array (
+                'id' => 41,
+                'kode' => 'ITCAT-202401311NLXo',
+                'nama' => 'KEPERLUAN KAPAL',
+                'remark' => 'KEPERLUAN KAPAL',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-01 00:02:03',
+                'updated_at' => '2024-02-01 00:02:03',
+            ),
+            40 => 
+            array (
+                'id' => 42,
+                'kode' => 'ITCAT-20240202AbQrT',
+                'nama' => 'Diskon Jasa',
+                'remark' => 'Diskon Jasa',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-02 22:39:25',
+                'updated_at' => '2024-02-02 22:39:25',
+            ),
+            41 => 
+            array (
+                'id' => 43,
+                'kode' => 'ITCAT-20240202yo9QL',
+                'nama' => 'Diskon Barang',
+                'remark' => 'Diskon Barang',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-02 22:41:55',
+                'updated_at' => '2024-02-02 22:41:55',
+            ),
+            42 => 
+            array (
+                'id' => 44,
+                'kode' => 'ITCAT-20240219jnpvb',
+                'nama' => 'SPAREPART - INVENTARIS KANTOR',
+                'remark' => 'SPAREPART - INVENTARIS KANTOR',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-19 18:19:03',
+                'updated_at' => '2024-03-07 08:10:42',
+            ),
+            43 => 
+            array (
+                'id' => 45,
+                'kode' => 'ITCAT-20240221TPXAy',
+                'nama' => 'Perjalanan Dinas',
+                'remark' => 'Perjalanan Dinas',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-21 21:38:35',
+                'updated_at' => '2024-02-21 21:38:35',
+            ),
+            44 => 
+            array (
+                'id' => 46,
+                'kode' => 'ITCAT-20240221fTquc',
+                'nama' => 'Hutang Sementara',
+                'remark' => 'Hutang Sementara',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-21 21:39:02',
+                'updated_at' => '2024-02-21 21:39:02',
+            ),
+            45 => 
+            array (
+                'id' => 47,
+                'kode' => 'ITCAT-20240221E4sjf',
+                'nama' => 'Losses OAT Laut',
+                'remark' => 'Losses OAT Laut',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-22 00:55:55',
+                'updated_at' => '2024-02-22 00:55:55',
+            ),
+            46 => 
+            array (
+                'id' => 48,
+                'kode' => 'ITCAT-20240226jzyBI',
+                'nama' => 'OPERASIONAL UMUM -  PURCHASE',
+                'remark' => 'OPERASIONAL UMUM -  PURCHASE',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-26 22:27:56',
+                'updated_at' => '2024-03-07 08:10:33',
+            ),
+            47 => 
+            array (
+                'id' => 49,
+                'kode' => 'ITCAT-20240228Ze5Ch',
+                'nama' => 'Maintenance Kendaraan Operasional',
+                'remark' => 'Maintenance Kendaraan Operasional',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-29 00:47:34',
+                'updated_at' => '2024-02-29 00:47:34',
+            ),
+            48 => 
+            array (
+                'id' => 50,
+                'kode' => 'ITCAT-20240305IlUDh',
+                'nama' => 'BDM Lain-Lain',
+                'remark' => 'BDM Lain-Lain',
+                'item_type_id' => 4,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-03-05 23:47:59',
+                'updated_at' => '2024-03-05 23:47:59',
+            ),
+            49 => 
+            array (
+                'id' => 51,
+                'kode' => 'ITCAT-202403085TqH7',
+                'nama' => 'Profesional Fee',
+                'remark' => 'Profesional Fee',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-03-09 00:40:29',
+                'updated_at' => '2024-04-19 11:30:12',
+            ),
+            50 => 
+            array (
+                'id' => 52,
+                'kode' => 'ITCAT-20240318pjw8i',
+                'nama' => 'Maintenance Gedung / Bangunan',
+                'remark' => 'Maintenance Gedung / Bangunan',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-03-18 17:03:01',
+                'updated_at' => '2024-03-18 17:03:01',
+            ),
+            51 => 
+            array (
+                'id' => 53,
+                'kode' => 'ITCAT-202403183EHgQ',
+                'nama' => 'Uang Muka Biaya',
+                'remark' => 'Uang Muka Biaya',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-03-18 20:40:48',
+                'updated_at' => '2024-03-18 20:40:48',
+            ),
+            52 => 
+            array (
+                'id' => 54,
+                'kode' => 'ITCAT-20240325zPguH',
+                'nama' => 'SPAREPART - KENDARAAN OPERASIONAL',
+                'remark' => 'SPAREPART - KENDARAAN OPERASIONAL',
+                'item_type_id' => 1,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-03-25 21:44:28',
+                'updated_at' => '2024-03-25 21:44:28',
+            ),
+            53 => 
+            array (
+                'id' => 55,
+                'kode' => 'ITCAT-20240402XVwGP',
+                'nama' => 'Aktiva Tetap - Tidak Berwujud',
+                'remark' => 'Aktiva Tetap - Tidak Berwujud',
+                'item_type_id' => 3,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-04-02 17:20:41',
+                'updated_at' => '2024-04-02 17:20:41',
+            ),
+            54 => 
+            array (
+                'id' => 56,
+                'kode' => 'ITCAT-20240425t4JhC',
+                'nama' => 'Sewa Kapal',
+                'remark' => 'Sewa Kapal',
+                'item_type_id' => 2,
+                'is_complete' => 1,
+                'deleted_at' => NULL,
+                'created_at' => '2024-04-25 15:31:55',
+                'updated_at' => '2024-04-25 15:31:55',
+            ),
+        ));
+        
+        
+    }
+}

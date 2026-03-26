@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddTypeToLeavesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('leaves', function (Blueprint $table) {
+            $table->string('type')->after('division_id')->nullable();
+            $table->string('necessary')->after('type')->nullable();
+            $table->integer('leave_remaining')->after('necessary')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('leaves', function (Blueprint $table) {
+            $table->dropColumn('type');
+            $table->dropColumn('necessary');
+            $table->dropColumn('leave_remaining');
+        });
+    }
+}

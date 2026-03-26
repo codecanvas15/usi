@@ -1,0 +1,686 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class ModelsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('models')->delete();
+        
+        \DB::table('models')->insert(array (
+            0 => 
+            array (
+                'id' => 2,
+                'name' => 'App\\Models\\AccountPayable',
+                'alias' => 'pembayaran-hutang',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            1 => 
+            array (
+                'id' => 4,
+                'name' => 'App\\Models\\CashAdvancedReturn',
+                'alias' => 'pengembalian-uang-muka',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            2 => 
+            array (
+                'id' => 5,
+                'name' => 'App\\Models\\CashAdvancePayment',
+                'alias' => 'pembayaran-uang-muka',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 6,
+                'name' => 'App\\Models\\CashAdvanceReceive',
+                'alias' => 'penerimaan-uang-muka',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            4 => 
+            array (
+                'id' => 7,
+                'name' => 'App\\Models\\CashBond',
+                'alias' => 'kasbon',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            5 => 
+            array (
+                'id' => 8,
+                'name' => 'App\\Models\\CashBondReturn',
+                'alias' => 'pengembalian-kasbon',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            6 => 
+            array (
+                'id' => 9,
+                'name' => 'App\\Models\\ClosingDeliveryOrderShip',
+                'alias' => 'closing-gudang',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            7 => 
+            array (
+                'id' => 10,
+                'name' => 'App\\Models\\ClosingPeriod',
+                'alias' => 'tutup-buku',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            8 => 
+            array (
+                'id' => 11,
+                'name' => 'App\\Models\\ContractExtension',
+                'alias' => 'perpanjangan-kontrak',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            9 => 
+            array (
+                'id' => 12,
+                'name' => 'App\\Models\\DeliveryOrder',
+                'alias' => 'surat-jalan-trading',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            10 => 
+            array (
+                'id' => 13,
+                'name' => 'App\\Models\\DeliveryOrderGeneral',
+                'alias' => 'surat-jalan-general',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            11 => 
+            array (
+                'id' => 15,
+                'name' => 'App\\Models\\Disposition',
+                'alias' => 'disposisi',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            12 => 
+            array (
+                'id' => 16,
+                'name' => 'App\\Models\\FundSubmission',
+                'alias' => 'pengajuan-dana',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 1,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2023-08-04 19:28:50',
+            ),
+            13 => 
+            array (
+                'id' => 17,
+                'name' => 'App\\Models\\GpEvaluation',
+                'alias' => 'general-performance-evaluation',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            14 => 
+            array (
+                'id' => 18,
+                'name' => 'App\\Models\\HrdAssessment',
+                'alias' => 'hrd-assessment',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            15 => 
+            array (
+                'id' => 19,
+                'name' => 'App\\Models\\IncomingPayment',
+                'alias' => 'kas-masuk',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            16 => 
+            array (
+                'id' => 20,
+                'name' => 'App\\Models\\InvoiceGeneral',
+                'alias' => 'invoice-general',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            17 => 
+            array (
+                'id' => 21,
+                'name' => 'App\\Models\\InvoiceReturn',
+                'alias' => 'retur-penjualan',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            18 => 
+            array (
+                'id' => 22,
+                'name' => 'App\\Models\\InvoiceTrading',
+                'alias' => 'invoice-trading',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            19 => 
+            array (
+                'id' => 23,
+                'name' => 'App\\Models\\ItemReceivingReport',
+                'alias' => 'penerimaan-barang-trading',
+                'type' => 'trading',
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2024-01-11 16:57:25',
+            ),
+            20 => 
+            array (
+                'id' => 24,
+                'name' => 'App\\Models\\Journal',
+                'alias' => 'jurnal',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            21 => 
+            array (
+                'id' => 25,
+                'name' => 'App\\Models\\LaborApplication',
+                'alias' => 'lamaran-pekerjaan',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            22 => 
+            array (
+                'id' => 26,
+                'name' => 'App\\Models\\LaborDemand',
+                'alias' => 'permintaan-tenaga-kerja',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            23 => 
+            array (
+                'id' => 27,
+                'name' => 'App\\Models\\LaborTransferForm',
+                'alias' => 'form-pemindahan-tenaga-kerja',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            24 => 
+            array (
+                'id' => 28,
+                'name' => 'App\\Models\\Leave',
+                'alias' => 'cuti',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            25 => 
+            array (
+                'id' => 29,
+                'name' => 'App\\Models\\OfferingLetter',
+                'alias' => 'offering-letter',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            26 => 
+            array (
+                'id' => 30,
+                'name' => 'App\\Models\\OutgoingPayment',
+                'alias' => 'kas-keluar',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            27 => 
+            array (
+                'id' => 31,
+                'name' => 'App\\Models\\PermissionLetterEmployee',
+                'alias' => 'izin pegawai',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            28 => 
+            array (
+                'id' => 32,
+                'name' => 'App\\Models\\PoTrading',
+                'alias' => 'purchase-order-trading',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 1,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2023-08-04 19:15:34',
+            ),
+            29 => 
+            array (
+                'id' => 33,
+                'name' => 'App\\Models\\Project',
+                'alias' => 'project',
+                'type' => NULL,
+                'group' => NULL,
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            30 => 
+            array (
+                'id' => 34,
+                'name' => 'App\\Models\\PurchaseOrderGeneral',
+                'alias' => 'purchase-order-general',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 1,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2023-08-04 19:06:22',
+            ),
+            31 => 
+            array (
+                'id' => 35,
+                'name' => 'App\\Models\\PurchaseOrderService',
+                'alias' => 'purchase-order-jasa',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 1,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2023-08-04 19:22:28',
+            ),
+            32 => 
+            array (
+                'id' => 36,
+                'name' => 'App\\Models\\PurchaseRequest',
+                'alias' => 'purchase-request',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2023-08-28 17:22:14',
+            ),
+            33 => 
+            array (
+                'id' => 37,
+                'name' => 'App\\Models\\PurchaseReturn',
+                'alias' => 'retur-pembelian',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            34 => 
+            array (
+                'id' => 38,
+                'name' => 'App\\Models\\PurchaseTransport',
+                'alias' => 'purchase-order-transport',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 1,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => '2023-08-16 16:59:24',
+            ),
+            35 => 
+            array (
+                'id' => 39,
+                'name' => 'App\\Models\\Quotation',
+                'alias' => 'penawaran',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            36 => 
+            array (
+                'id' => 40,
+                'name' => 'App\\Models\\ReceivablesPayment',
+                'alias' => 'pembayaran-piutang',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            37 => 
+            array (
+                'id' => 41,
+                'name' => 'App\\Models\\ReceivePayment',
+                'alias' => 'giro-masuk',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            38 => 
+            array (
+                'id' => 42,
+                'name' => 'App\\Models\\Recruitment',
+                'alias' => 'rekrutment',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            39 => 
+            array (
+                'id' => 43,
+                'name' => 'App\\Models\\Salary',
+                'alias' => 'penggajian',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            40 => 
+            array (
+                'id' => 44,
+                'name' => 'App\\Models\\SaleOrderGeneral',
+                'alias' => 'sales-order-general',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            41 => 
+            array (
+                'id' => 45,
+                'name' => 'App\\Models\\SoTrading',
+                'alias' => 'sales-order-trading',
+                'type' => NULL,
+                'group' => 'penjualan',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            42 => 
+            array (
+                'id' => 46,
+                'name' => 'App\\Models\\SpecificTimeWorkAgreement',
+                'alias' => 'pkwt',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            43 => 
+            array (
+                'id' => 47,
+                'name' => 'App\\Models\\StockOpname',
+                'alias' => 'stock-adjustment',
+                'type' => NULL,
+                'group' => 'gudang',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            44 => 
+            array (
+                'id' => 48,
+                'name' => 'App\\Models\\StockTransfer',
+                'alias' => 'transfer-stock',
+                'type' => NULL,
+                'group' => 'gudang',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            45 => 
+            array (
+                'id' => 49,
+                'name' => 'App\\Models\\StockUsage',
+                'alias' => 'pemakaian-stock',
+                'type' => NULL,
+                'group' => 'gudang',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            46 => 
+            array (
+                'id' => 50,
+                'name' => 'App\\Models\\SupplierInvoice',
+                'alias' => 'tagihan-supplier',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            47 => 
+            array (
+                'id' => 51,
+                'name' => 'App\\Models\\SupplierInvoiceGeneral',
+                'alias' => 'tagihan-supplier-general',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            48 => 
+            array (
+                'id' => 52,
+                'name' => 'App\\Models\\TaxReconciliation',
+                'alias' => 'rekonsiliasi-pajak',
+                'type' => NULL,
+                'group' => 'keuangan & akuntansi',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            49 => 
+            array (
+                'id' => 53,
+                'name' => 'App\\Models\\UserAssessment',
+                'alias' => 'assestment-pegawai',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            50 => 
+            array (
+                'id' => 54,
+                'name' => 'App\\Models\\PurchaseRequestTrading',
+                'alias' => 'Purchase Request Trading',
+                'type' => NULL,
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2023-12-21 01:35:22',
+                'updated_at' => '2023-12-21 01:35:22',
+            ),
+            51 => 
+            array (
+                'id' => 55,
+                'name' => 'App\\Models\\ItemReceivingReport',
+                'alias' => 'penerimaan-barang-general',
+                'type' => 'general',
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-11 16:57:25',
+                'updated_at' => '2024-01-11 16:57:25',
+            ),
+            52 => 
+            array (
+                'id' => 56,
+                'name' => 'App\\Models\\ItemReceivingReport',
+                'alias' => 'penerimaan-barang-service',
+                'type' => 'service',
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-11 16:57:26',
+                'updated_at' => '2024-01-11 16:57:26',
+            ),
+            53 => 
+            array (
+                'id' => 57,
+                'name' => 'App\\Models\\ItemReceivingReport',
+                'alias' => 'penerimaan-barang-transport',
+                'type' => 'transport',
+                'group' => 'pembelian',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2024-01-11 16:57:26',
+                'updated_at' => '2024-01-11 16:57:26',
+            ),
+            54 => 
+            array (
+                'id' => 58,
+                'name' => 'App\\Models\\LeaveChangeFile',
+                'alias' => 'perubahan-file-cuti',
+                'type' => NULL,
+                'group' => 'hrd',
+                'need_to_check_amount' => 0,
+                'deleted_at' => NULL,
+                'created_at' => '2024-02-16 17:46:06',
+                'updated_at' => '2024-02-16 17:46:06',
+            ),
+        ));
+        
+        
+    }
+}
